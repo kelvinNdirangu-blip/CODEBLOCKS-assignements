@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main()
 {
-       int x = 8;
-    int y = 2;
-    int z = 0;
-    z = x % y;
-    printf("%d", z);
+    char name[6];
+    printf("enter your name");
+    scanf("%s", &name);
+
+
     return 0;
 }
