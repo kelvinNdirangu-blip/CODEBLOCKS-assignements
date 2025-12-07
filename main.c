@@ -4,9 +4,9 @@
 int main()
 {
        int x = 8;
-    int y = 4;
+    int y = 2;
     int z = 0;
-    z = x / y;
+    z = x % y;
     printf("%d", z);
     return 0;
 }
