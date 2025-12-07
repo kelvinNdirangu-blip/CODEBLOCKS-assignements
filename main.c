@@ -3,10 +3,10 @@
 
 int main()
 {
-    int x = 8;
-    int y = 3;
+       int x = 8;
+    int y = 4;
     int z = 0;
-    z = x + y;
+    z = x / y;
     printf("%d", z);
     return 0;
 }
